@@ -124,5 +124,9 @@ body{
         margin: 0;
     }
 
-    
+    .social-icons{
+        margin: 0;
+        grid-column: 2/3;
+        justify-self: end;
+    }
 }
