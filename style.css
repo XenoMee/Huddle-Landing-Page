@@ -89,6 +89,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .icon{
@@ -99,7 +100,7 @@ body{
 }
 
 .attribution {
-  font-size: .8rem;
+  font-size: .75rem;
   text-align: center;
 }
 
