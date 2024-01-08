@@ -9,6 +9,8 @@
     --clr-secondary:hsl(300, 69%, 71%);
     --clr-footer:hsl(228, 45%, 44%);
 
+    --fw-normal: 400;
+    --fw-bold: 600;
 }
 
 *, *::after, *::before {
@@ -55,6 +57,14 @@ body{
 
 .content{
     text-align: center;
+}
+
+.title{
+    font-family: var(--ff-heading);
+}
+
+.description{
+    font-weight: 
 }
 
 .attribution {
