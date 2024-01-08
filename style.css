@@ -64,7 +64,20 @@ body{
 }
 
 .description{
-    font-weight: 
+    font-weight: var(--fw-normal);
+    opacity: .9;
+    margin-bottom: 1.5rem;
+}
+
+.btn{
+    display: inline-block;
+    background-color: white;
+    color: var(--clr-primary);
+    padding: .7rem 5rem;
+    border-radius: 2rem;
+    font-weight: var(--fw-normal);
+    font-size: .9rem;
+    text-decoration: none;
 }
 
 .attribution {
