@@ -22,11 +22,26 @@ body{
     background-color: var(--clr-primary);
     color: white;
     line-height: 1.5;
-}
+    min-height: 100svh;
 
-.logo{
+    display: grid;
+    place-items: center;
     
 }
+
+/* .wrapper{
+    width: 23rem;
+} */
+
+/* main > img{
+    max-width: 100%;
+    object-fit: cover;
+} */
+
+/* .logo-image{
+    max-width: 40%;
+    object-fit: cover;
+} */
 
 .attribution {
   font-size: .8rem;
