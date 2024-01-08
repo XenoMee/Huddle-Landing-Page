@@ -41,7 +41,7 @@ body{
 
 .logo{
     justify-self: start;
-    margin-bottom: 3.5rem;
+    margin: 2rem 0rem 1.5rem 2rem;
 }
 
 .image{
@@ -50,7 +50,7 @@ body{
 }
 
 .logo-image{
-    max-width: 41%;
+    max-width: 50%;
 }
 
 
