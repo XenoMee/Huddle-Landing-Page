@@ -29,14 +29,15 @@ body{
     
 }
 
+.image{
+    max-width: 100%;
+    object-fit: cover;
+}
+
 /* .wrapper{
     width: 23rem;
 } */
 
-/* main > img{
-    max-width: 100%;
-    object-fit: cover;
-} */
 
 /* .logo-image{
     max-width: 40%;
