@@ -31,18 +31,23 @@ body{
     place-items: center;
 }
 
+.logo{
+    min-height: 15vh;
+}
+
 .image{
     max-width: 100%;
     object-fit: cover;
 }
 
+
 .logo-image{
-    max-width: 40%;
+    max-width: 45%;
 }
 
 .wrapper{
     display: grid;
-    padding: 0rem 2.5rem;
+    padding: 0rem 2rem;
 }
 
 
