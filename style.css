@@ -31,8 +31,13 @@ body{
     place-items: center;
 }
 
+.wrapper{
+    display: grid;
+    padding: 2rem 2.3rem;
+}
+
 .logo{
-    min-height: 15vh;
+    margin-bottom: 3.5rem;
 }
 
 .image{
@@ -41,12 +46,11 @@ body{
 }
 
 .logo-image{
-    max-width: 45%;
+    max-width: 41%;
 }
 
-.wrapper{
-    display: grid;
-    padding: 0rem 2rem;
+.main-image{
+    margin-bottom: 3rem;
 }
 
 .content{
