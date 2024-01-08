@@ -119,11 +119,11 @@ body{
     }
     /* .logo{
         margin-left: 4rem;
-    }
+    } */
 
     .logo-image{
         max-width: 100%;
-    } */
+    }
 
     .wrapper{
         grid-template-columns: 1.25fr 1fr;
