@@ -34,15 +34,16 @@ body{
     object-fit: cover;
 }
 
+.logo-image{
+    max-width: 40%;
+}
+
+
 /* .wrapper{
     width: 23rem;
 } */
 
 
-/* .logo-image{
-    max-width: 40%;
-    object-fit: cover;
-} */
 
 .attribution {
   font-size: .8rem;
