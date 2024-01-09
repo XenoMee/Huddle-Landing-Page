@@ -136,6 +136,11 @@ body{
         justify-self: end;
     }
 
+    .content{
+        align-self: start;
+        text-align: start;
+        margin: 1.5rem 2.5rem;
+    }
 
     .title{
         font-size: 2.6rem;
