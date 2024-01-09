@@ -82,6 +82,7 @@ body{
     font-weight: var(--fw-normal);
     font-size: .9rem;
     text-decoration: none;
+    box-shadow: .2rem .2rem 1rem rgba(0, 0,0,.5);
 }
 
 .social-icons{
