@@ -118,6 +118,10 @@ body{
         grid-template-rows: min-content 1fr min-content;
     }
 
+    .logo{
+        margin-bottom: 2rem;
+    }
+
     .logo-image{
         max-width: 100%;
     }
