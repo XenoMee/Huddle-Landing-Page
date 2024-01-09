@@ -152,6 +152,10 @@ body{
         color: white;
     }
 
+    .icon:active{
+        fill: var(--clr-secondary);
+    }
+
     footer{
         justify-self: end;
         margin-right: 4rem;
