@@ -115,7 +115,7 @@ body{
         background-image: url("./images/bg-desktop.svg");
         background-repeat: no-repeat;
         background-position: center left;
-        background-size: contain;
+        background-size: cover;
         grid-template-rows: min-content 1fr min-content;
     }
 
