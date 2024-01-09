@@ -117,9 +117,6 @@ body{
         background-size: contain;
         grid-template-rows: min-content 1fr min-content;
     }
-    /* .logo{
-        margin-left: 4rem;
-    } */
 
     .logo-image{
         max-width: 100%;
