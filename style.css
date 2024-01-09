@@ -145,9 +145,7 @@ body{
         padding: .7rem 3.5rem;
     }
 
-    .social-icons{
-        margin: 0;
-        grid-column: 2/3;
+    footer{
         justify-self: end;
     }
 }
