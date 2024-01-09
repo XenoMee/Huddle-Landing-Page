@@ -150,11 +150,13 @@ body{
     .btn:active{
         background-color: var(--clr-secondary);
         color: white;
+        cursor: pointer;
     }
 
     .icon:active{
         fill: var(--clr-secondary);
         border-color: var(--clr-secondary);
+        cursor: pointer;
     }
 
     footer{
