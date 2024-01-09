@@ -154,6 +154,7 @@ body{
 
     .icon:active{
         fill: var(--clr-secondary);
+        border-color: var(--clr-secondary);
     }
 
     footer{
