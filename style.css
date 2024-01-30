@@ -141,6 +141,17 @@ header {
   color: var(--clr-icon-hover);
 }
 
+/* Utility classes */
+/* sometimes referred to as .sr-only */
+.visually-hidden:not(:focus):not(:active):not(:focus-within) {
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 @media (min-width: 50em) {
   :root {
     --content-padding: 2rem 4rem;
