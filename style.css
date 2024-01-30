@@ -149,6 +149,7 @@ header {
   }
 
   .container {
+    text-align: start;
     grid-template-columns: 1fr 1fr;
   }
 
