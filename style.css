@@ -73,8 +73,11 @@ body {
 }
 
 /* Layout */
+header {
+  padding: var(--content-padding);
+}
+
 .logo {
-  max-width: 12.5rem;
   width: 7.5rem;
 }
 
