@@ -108,6 +108,12 @@ header {
   box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.4);
 }
 
+.social-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 @media (min-width: 1200px) {
   body {
     min-height: 100vh;
