@@ -101,6 +101,7 @@ header {
   background-color: var(--clr-accent-100);
   color: var(--clr-primary-500);
   padding: 0.8em 6.5em;
+  font-family: var(--ff-heading);
   font-weight: var(--fw-normal);
   font-size: 0.75rem;
   border-radius: 2rem;
