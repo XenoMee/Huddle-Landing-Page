@@ -144,6 +144,10 @@ header {
     place-content: center;
   }
 
+  .logo {
+    width: 12.5rem;
+  }
+
   .container {
     grid-template-columns: 1fr 1fr;
   }
