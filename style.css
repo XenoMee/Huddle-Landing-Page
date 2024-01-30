@@ -70,6 +70,11 @@ body {
 
 /* Layout */
 
+.logo {
+  max-width: 12.5rem;
+  width: 7.5rem;
+}
+
 .container {
   --content-spacing: 1rem;
   --content-padding: 2rem;
