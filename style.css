@@ -119,6 +119,13 @@ header {
   gap: 1rem;
 }
 
+.social-link {
+  border-radius: 50%;
+  border: 1px solid var(--clr-accent-100);
+  color: var(--clr-accent-100);
+  padding: 0.4em 0.7em;
+}
+
 @media (min-width: 1200px) {
   body {
     min-height: 100vh;
