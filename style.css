@@ -58,9 +58,9 @@ body {
   color: var(--clr-accent-100);
   font-family: var(--ff-text);
   font-weight: var(--fw-regular);
-  /* background-image: url("./images/bg-mobile.svg");
+  background-image: url("./images/bg-mobile.svg");
   background-repeat: no-repeat;
-  background-position: top; */
+  background-size: 100%;
   line-height: 1.5;
   min-height: 100svh;
 }
