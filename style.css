@@ -10,7 +10,7 @@
 
   /* Font size */
   --fs-default: 1rem;
-  --fs-title: 2rem;
+  --fs-title: 1.5rem;
 
   /* Font weight */
   --fw-regular: 400;
@@ -69,7 +69,6 @@ body {
 }
 
 /* Layout */
-
 .logo {
   max-width: 12.5rem;
   width: 7.5rem;
