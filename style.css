@@ -90,6 +90,12 @@ header {
   place-items: center;
 }
 
+.main-content {
+  display: grid;
+  gap: 1.5rem;
+  place-items: center;
+}
+
 .btn {
   display: inline-block;
   background-color: var(--clr-accent-100);
