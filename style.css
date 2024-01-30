@@ -133,8 +133,8 @@ header {
     background-image: url("./images/bg-desktop.svg");
     background-size: 90% 100%;
 
-    /* display: grid;
-    place-content: center; */
+    display: grid;
+    place-content: center;
   }
 
   .container {
