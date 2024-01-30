@@ -94,9 +94,10 @@ header {
   display: inline-block;
   background-color: var(--clr-accent-100);
   color: var(--clr-primary-500);
-  border-radius: 2rem;
+  padding: 0.8em 6.5em;
   font-weight: var(--fw-normal);
   font-size: 0.75rem;
+  border-radius: 2rem;
   text-decoration: none;
   box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.4);
 }
