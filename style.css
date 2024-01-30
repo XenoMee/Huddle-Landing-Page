@@ -137,8 +137,8 @@ header {
 }
 
 .social-link:is(:hover, :focus) {
-  border-color: var(--clr-primary-300);
-  color: var(--clr-primary-300);
+  border-color: var(--clr-icon-hover);
+  color: var(--clr-icon-hover);
 }
 
 @media (min-width: 50em) {
