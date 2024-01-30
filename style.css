@@ -161,10 +161,12 @@ header {
   }
 
   .container {
+    max-width: 90rem;
     text-align: start;
     grid-template-columns: 1fr 0.65fr;
     justify-items: start;
     gap: 0;
+    margin: 0 auto;
   }
 
   .main-content {
