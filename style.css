@@ -156,4 +156,8 @@ header {
     margin: 5rem 5rem 0 0;
     justify-content: end;
   }
+
+  .social-link {
+    font-size: 1.125rem;
+  }
 }
