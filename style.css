@@ -24,6 +24,14 @@
   margin: 0;
 }
 
+/* Make images responsive */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
 body {
   margin: 0;
   font-family: var(--ff-body);
