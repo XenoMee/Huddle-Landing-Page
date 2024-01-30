@@ -9,7 +9,7 @@
   --ff-text: "Open Sans", sans-serif;
 
   /* Font weight */
-  --fw-normal: 400;
+  --fw-regular: 400;
   --fw-bold: 600;
 }
 
@@ -47,16 +47,14 @@ h6 {
 /* General/Generic */
 body {
   background-color: var(--clr-primary);
-  color: white;
+  color: var(--clr-accent-100);
   font-family: var(--ff-body);
+  font-weight: var(--fw-regular);
   /* background-image: url("./images/bg-mobile.svg");
   background-repeat: no-repeat;
   background-position: top; */
   line-height: 1.5;
   min-height: 100svh;
-
-  display: grid;
-  place-items: center;
 }
 
 .wrapper {
