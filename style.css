@@ -126,69 +126,18 @@ header {
   padding: 0.4em 0.7em;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 50em) {
   body {
-    min-height: 100vh;
     background-image: url("./images/bg-desktop.svg");
-    background-repeat: no-repeat;
-    background-position: center left;
-    background-size: cover;
-    grid-template-rows: min-content 1fr min-content;
   }
 
-  .logo {
-    margin-bottom: 2rem;
-  }
-
-  .logo-image {
-    max-width: 100%;
-  }
-
-  .wrapper {
-    grid-template-columns: 1fr 0.8fr;
-    padding: 0;
-  }
-
-  .main-image {
-    margin-bottom: 0;
-    justify-self: end;
-  }
-
-  .content {
-    align-self: start;
-    text-align: start;
-    margin: 1.5rem 2.5rem;
-  }
-
-  .title {
-    font-size: 2.6rem;
-  }
-
-  .description {
-    font-size: 1.21rem;
+  .container {
+    grid-template-columns: 1fr 1fr;
   }
 
   .btn {
     font-size: 1.2rem;
     padding: 0.7rem 3.5rem;
     box-shadow: 0.5rem 0.5rem 3rem rgba(0, 0, 0, 0.5);
-  }
-
-  .btn:active {
-    background-color: var(--clr-secondary);
-    color: white;
-    cursor: pointer;
-  }
-
-  .icon:active {
-    fill: var(--clr-secondary);
-    border-color: var(--clr-secondary);
-    cursor: pointer;
-  }
-
-  footer {
-    justify-self: end;
-    margin-right: 4rem;
-    margin-bottom: 1rem;
   }
 }
