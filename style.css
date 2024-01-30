@@ -1,10 +1,13 @@
 :root {
+  /* Colors */
+  --clr-primary-500: hsl(257, 40%, 49%);
+  --clr-secondary-300: hsl(300, 69%, 71%);
+
+  /* Font family */
   --ff-heading: "Poppins", sans-serif;
   --ff-text: "Open Sans", sans-serif;
 
-  --clr-primary: hsl(257, 40%, 49%);
-  --clr-secondary: hsl(300, 69%, 71%);
-
+  /* Font weight */
   --fw-normal: 400;
   --fw-bold: 600;
 }
