@@ -15,6 +15,10 @@
   /* Font weight */
   --fw-regular: 400;
   --fw-bold: 600;
+
+  /* Spacing */
+  --content-spacing: 3rem;
+  --content-padding: 2rem;
 }
 
 /* Use a more-intuitive box-sizing model */
@@ -75,13 +79,12 @@ body {
 }
 
 .container {
-  --content-spacing: 1rem;
-  --content-padding: 2rem;
-
-  text-align: center;
-  display: grid;
-  place-items: center;
   padding: var(--content-padding);
+  text-align: center;
+
+  display: grid;
+  gap: var(--content-spacing);
+  place-items: center;
 }
 
 .btn {
