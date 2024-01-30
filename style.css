@@ -129,6 +129,12 @@ header {
 }
 
 @media (min-width: 50em) {
+  :root {
+    --content-padding: 2rem 4rem;
+    /* --fs-title: 2.5rem;
+    --fs-default: 1.125rem; */
+  }
+
   body {
     background-image: url("./images/bg-desktop.svg");
     background-size: 90% 100%;
