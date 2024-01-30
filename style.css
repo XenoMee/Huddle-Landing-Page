@@ -8,6 +8,10 @@
   --ff-heading: "Poppins", sans-serif;
   --ff-text: "Open Sans", sans-serif;
 
+  /* Font size */
+  --fs-default: 1rem;
+  --fs-title: 2rem;
+
   /* Font weight */
   --fw-regular: 400;
   --fw-bold: 600;
