@@ -111,6 +111,11 @@ header {
   cursor: pointer;
 }
 
+.btn:is(:hover, :focus) {
+  background-color: var(--clr-primary-300);
+  color: var(--clr-accent-100);
+}
+
 .social-list {
   padding: 0;
   margin: 3rem 0 2rem;
@@ -128,6 +133,11 @@ header {
   color: var(--clr-accent-100);
   padding: 0.4em 0.7em;
   cursor: pointer;
+}
+
+.social-link:is(:hover, :focus) {
+  border-color: var(--clr-primary-300);
+  color: var(--clr-primary-300);
 }
 
 @media (min-width: 50em) {
@@ -162,7 +172,7 @@ header {
 
   .btn {
     font-size: 1.125rem;
-    padding: 1em 4em;
+    padding: 0.8em 3.5em;
   }
 
   .social-list {
