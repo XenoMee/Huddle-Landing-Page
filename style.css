@@ -32,6 +32,17 @@ svg {
   display: block;
 }
 
+/* Avoid text overflow */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
 body {
   margin: 0;
   font-family: var(--ff-body);
